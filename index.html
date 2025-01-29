@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pediatriks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="Pediatriks Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#direccion">Dirección</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="platform-button">
+                <a href="https://plataforma.pediatriks.pe/" target="_blank" class="btn-platform">Ir a la Plataforma</a>
+            </div>
+        </nav>
+        <a href="https://api.whatsapp.com/send?phone=51993723593" class="float" target="_blank"><i class="my-float"></i></a>
+    </header>
+    
+    
+
+    <section class="hero">
+        <div class="carousel">
+            <div class="carousel-images">
+                <div class="slide" style="background-image: url('img/imagen1.webp');"></div>
+                <div class="slide" style="background-image: url('img/imagen2.webp');"></div>
+                <div class="slide" style="background-image: url('img/imagen3.webp');"></div>
+            </div>
+            <!-- Indicadores (puntos) del carrusel -->
+            <div class="carousel-indicators">
+                <span class="indicator active" data-index="0"></span>
+                <span class="indicator" data-index="1"></span>
+                <span class="indicator" data-index="2"></span>
+            </div>
+        </div>
+    </section>    
+    <section class="info-section">
+        <div class="info-container">
+            <div class="info-card">
+                <i class="fas fa-clock"></i>
+                <h3>Horario de apertura</h3>
+                <p>Lunes a viernes: 8:00 a. m. a 7:00 p. m.<br>Sábado: 9:00 a. m. a 5:00 p. m.<br>Domingo: 9:00 a. m. a 3:00 p. m.</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-user-md"></i>
+                <h3>Horario de los médicos</h3>
+                <p>Lo siguiente es sólo una guía para ayudarle a planificar su cita con un médico o enfermera preferido.</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-calendar-check"></i>
+                <h3>Equipo</h3>
+                <p>El primer paso hacia una vida saludable es programar una cita. Comuníquese con nuestro consultorio por teléfono o en línea.</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Casos de emergencia </h3>
+                <p>+51 993 723 593<br>Llamanos!</p>
+            </div>
+        </div>
+        <div class="difference-section">
+            <h2>Lo que nos hace diferentes</h2>
+            <hr>
+            <div class="features-container">
+                <div class="feature-card">
+                    <i class="fas fa-pills"></i>
+                    <h3>Medicamentos modernos</h3>
+                    <p>Utilizamos una combinación de medicinas tradicionales y modernas para curar a los pacientes.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user-nurse"></i>
+                    <h3>Médicos y personal calificado</h3>
+                    <p>Nuestro equipo de más de 15 profesionales está altamente capacitado para atender las necesidades de nuestros pacientes.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-ambulance"></i>
+                    <h3>Servicios de ambulancia</h3>
+                    <p>Brindamos servicios de ambulancia confiables y eficientes a los pacientes que los necesitan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h2>Nuestros Servicios: </h2>
+        <hr>
+        <p>Brindamos servicios de atención médica de alta calidad para toda la familia.</p>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="img/servicio1.jpg" alt="Routine Medical Care">
+                <div class="service-title">ATENCIÓN MÉDICA DE RUTINA</div>
+            </div>
+            <div class="service-card">
+                <img src="img/servicio2.jpg" alt="Physiotherapy">
+                <div class="service-title">FISIOTERAPIA</div>
+            </div>
+            <div class="service-card">
+                <img src="img/servicio3.jpg" alt="Minor Surgery">
+                <div class="service-title">CIRUGÍA MENOR</div>
+            </div>
+            <div class="service-card">
+                <img src="img/servicio4.jpg" alt="Nursing Services">
+                <div class="service-title">SERVICIOS DE ENFERMERÍA</div>
+            </div>
+            <div class="service-card">
+                <img src="img/servicio5.jpg" alt="Flu Vaccination">
+                <div class="service-title">VACUNACIÓN CONTRA LA GRIPE</div>
+            </div>
+            <div class="service-card">
+                <img src="img/servicio6.jpg" alt="Diagnostic Imaging">
+                <div class="service-title">DIAGNÓSTICO POR IMAGEN</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Mapa de Google -->
+     <div id="direccion">
+    <section class="map-section">
+        <h2>Nos encontramos en:</h2>
+        <hr>
+        <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487.9168466429519!2d-77.05981743692523!3d-11.951307931680683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d1d840534057%3A0x588c76474f6dae69!2sPediatrik&#39;s!5e0!3m2!1ses!2spe!4v1738014127729!5m2!1ses!2spe" 
+    width="600" 
+    height="450" 
+    style="border: 0" 
+    allowfullscreen=""
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</section>
+</div>
+</body>
+<footer>
+    <div id="contact">
+    <div class="footer-container">
+        <!-- Logo y redes sociales -->
+        <div class="footer-brand">
+            <div class="logo">
+                <img src="img/logo.png" alt="Pediatriks Centro Especializado">
+                <h2>Pediatriks <span>Centro Especializado</span></h2>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/pediatriks.pe"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fas fa-rss"></i></a>
+            </div>
+        </div>
+
+        <!-- Información de contacto -->
+        <div class="footer-contact">
+            <h3>Contactanos</h3>
+            <hr>
+            <p><i class="fas fa-phone-alt"></i> +51 993 723 593</p>
+            <p><i class="fas fa-map-marker-alt"></i> Pediatrik's, Av. Universitaria 6102, Comas 15314</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:info@demolink.org" class="gmail">info@demolink.org</a></p>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-newsletter">
+            <h3>Hoja informativa</h3>
+            <hr>
+            <p>Introduzca su dirección de correo electrónico para recibir noticias actualizadas, información para nuevos pacientes y otra información útil.</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Tu correo electrónico..." required>
+                <button type="submit">SUSCRIBIR</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>© 2025. Todos los derechos reservados. <a href="#">política de privacidad</a></p>
+    </div>
+
+    <!-- Botón Scroll Up -->
+    <button id="scrollUp"><i class="fa-solid fa-arrow-up"></i></button>
+</div>
+</footer>
+<script src="script.js"></script>
+</html>
