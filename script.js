@@ -56,3 +56,20 @@ window.addEventListener("scroll", function () {
 document.getElementById("scrollUp").addEventListener("click", function () {
     window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
+function toggleMenu() {
+    let navbar = document.querySelector(".navbar");
+    let navLinks = document.querySelector(".nav-links");
+    let platformButton = document.querySelector(".platform-button");
+
+    navLinks.classList.toggle("active");
+    navbar.classList.toggle("expanded");
+
+    // Muestra el botón dentro del menú cuando está activo
+    if (navLinks.classList.contains("active")) {
+        platformButton.style.display = "flex";
+    } else {
+        platformButton.style.display = "none";
+    }
+}
+
